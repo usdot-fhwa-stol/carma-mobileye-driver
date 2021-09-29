@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>mobileye_camera_driver_wrapper</name>
+  <version>1.0.0</version>
+  <description>The mobileye camera driver wrapper package</description>
+  <maintainer email="carma@todo.todo">carma</maintainer>
+  <license>Apache 2.0</license>
+  <author email="carma@todo.todo">carma</author>
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>cav_driver_utils</depend>
+  <depend>cav_msgs</depend>
+  <depend>mobileye_560_660_msgs</depend>
+  <depend>roscpp</depend>
+</package>
