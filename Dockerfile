@@ -28,7 +28,7 @@ ARG VCS_REF="NULL"
 
 # Install AutonomousStuff Mobileye Camera Driver Package
 RUN sudo apt update && \
-  sudo apt install ros-$ROS_DISTRO-mobileye-560-660
+  sudo apt install ros-$ROS_DISTRO-mobileye-560-660 -y
 
 LABEL org.label-schema.schema-version="1.0"
 LABEL org.label-schema.name="carma-mobileye-driver"
